@@ -1,0 +1,5 @@
+#define MAX_COMMAND_ARGUMENTS 16
+	char *arguments[MAX_COMMAND_ARGUMENTS]; //include everything except for command
+	char *allCommands[MAX_COMMAND_ARGUMENTS]; //include everythingin the command line
+	Command *commandArray[MAX_COMMAND_ARGUMENTS]; //array of Commands
+	char *originalArray[MAX_COMMAND_ARGUMENTS]; //need this to intialize commandArray
